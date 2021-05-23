@@ -1,7 +1,3 @@
-
-
-
-
 from flask import Flask
 from flask import jsonify , make_response
 from flask.globals import request
@@ -11,11 +7,12 @@ import datetime
 from functools import wraps
 from werkzeug.contrib.fixers import ProxyFix
 
+'''
 from enum import Enum, EnumMeta
 class LoginState(EnumMeta):
     INVALID = True
     READONLY = False
-    WRITEACCESS = False
+    WRITEACCESS = False'''
 
 
 
